@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi_vip_0_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/baba/Downloads/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

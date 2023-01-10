@@ -1,0 +1,26 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"-445,-179",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-405,-748",
+   "Display-PortTypeOthers":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-445,-179",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_iclk -pg 1 -lvl 0 -x 0 -y -590 -defaultsOSRD
+preplace port port-id_irstn -pg 1 -lvl 0 -x 0 -y -570 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 1 -x 340 -y -420 -defaultsOSRD
+preplace inst AXI_LITE_source_v1_0_0 -pg 1 -lvl 1 -x 340 -y -590 -defaultsOSRD
+preplace netloc iclk_1 1 0 1 30 -590n
+preplace netloc irstn_1 1 0 1 20 -570n
+preplace netloc axi_vip_0_M_AXI 1 0 2 40 -490 450
+levelinfo -pg 1 0 340 490
+pagesize -pg 1 -db -bbox -sgen -80 -880 490 160
+"
+}
+{
+   "da_axi4_cnt":"2"
+}

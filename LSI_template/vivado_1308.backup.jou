@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan  9 19:28:21 2023
+# Process ID: 1308
+# Current directory: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9404 C:\Users\baba\Desktop\AXI4-lite-myip\LSI_template\LSI_template.xpr
+# Log file: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/vivado.log
+# Journal file: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template\vivado.jou
+# Running On: DESKTOP-NK32O2V, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 4, Host memory: 34294 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.srcs/sim_1/imports/new/tb.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.srcs/sim_1/imports/new/tb.sv
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/baba/Downloads/tb.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/tb_behav1.wcfg
+open_wave_config C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/fifoa.wcfg
+open_wave_config C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg
+source tb.tcl
+close_sim

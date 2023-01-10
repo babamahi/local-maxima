@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="761.720 ns"></ZoomStartTime>
+      <ZoomEndTime time="827.021 ns"></ZoomEndTime>
+      <Cursor1Time time="810.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="57" />
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ACLK" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_AWPROT" type="array">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_AWREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_WSTRB" type="array">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_WVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_WREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_BRESP" type="array">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_BVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_BREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ARPROT" type="array">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_ARREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_RRESP" type="array">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_RVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_RREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_bresp" type="array">
+      <obj_property name="ElementShortName">axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_rresp" type="array">
+      <obj_property name="ElementShortName">axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/srst" type="logic">
+      <obj_property name="ElementShortName">srst</obj_property>
+      <obj_property name="ObjectShortName">srst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/full_a" type="logic">
+      <obj_property name="ElementShortName">full_a</obj_property>
+      <obj_property name="ObjectShortName">full_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/empty_a" type="logic">
+      <obj_property name="ElementShortName">empty_a</obj_property>
+      <obj_property name="ObjectShortName">empty_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/full_b" type="logic">
+      <obj_property name="ElementShortName">full_b</obj_property>
+      <obj_property name="ObjectShortName">full_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/empty_b" type="logic">
+      <obj_property name="ElementShortName">empty_b</obj_property>
+      <obj_property name="ObjectShortName">empty_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/rden_a" type="logic">
+      <obj_property name="ElementShortName">rden_a</obj_property>
+      <obj_property name="ObjectShortName">rden_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/dout_a" type="array">
+      <obj_property name="ElementShortName">dout_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/wren_b" type="logic">
+      <obj_property name="ElementShortName">wren_b</obj_property>
+      <obj_property name="ObjectShortName">wren_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/din_b" type="array">
+      <obj_property name="ElementShortName">din_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/waddr_ctr" type="array">
+      <obj_property name="ElementShortName">waddr_ctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr_ctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/raddr_ctr" type="array">
+      <obj_property name="ElementShortName">raddr_ctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr_ctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg0" type="array">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg1" type="array">
+      <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg2" type="array">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg3" type="array">
+      <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg_rden" type="logic">
+      <obj_property name="ElementShortName">slv_reg_rden</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/slv_reg_wren" type="logic">
+      <obj_property name="ElementShortName">slv_reg_wren</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/reg_data_out" type="array">
+      <obj_property name="ElementShortName">reg_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/byte_index" type="other">
+      <obj_property name="ElementShortName">byte_index</obj_property>
+      <obj_property name="ObjectShortName">byte_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/aw_en" type="logic">
+      <obj_property name="ElementShortName">aw_en</obj_property>
+      <obj_property name="ObjectShortName">aw_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/C_S_AXI_DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_S_AXI_DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/C_S_AXI_ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">C_S_AXI_ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/ADDR_LSB" type="other">
+      <obj_property name="ElementShortName">ADDR_LSB</obj_property>
+      <obj_property name="ObjectShortName">ADDR_LSB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/OPT_MEM_ADDR_BITS" type="other">
+      <obj_property name="ElementShortName">OPT_MEM_ADDR_BITS</obj_property>
+      <obj_property name="ObjectShortName">OPT_MEM_ADDR_BITS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/FIFO_DEPTH" type="other">
+      <obj_property name="ElementShortName">FIFO_DEPTH</obj_property>
+      <obj_property name="ObjectShortName">FIFO_DEPTH</obj_property>
+   </wvobject>
+</wave_config>

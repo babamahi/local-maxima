@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jan 10 12:30:51 2023
+# Process ID: 1824
+# Current directory: C:/Users/baba/Desktop/LSI_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17764 C:\Users\baba\Desktop\LSI_template\LSI_template.xpr
+# Log file: C:/Users/baba/Desktop/LSI_template/vivado.log
+# Journal file: C:/Users/baba/Desktop/LSI_template\vivado.jou
+# Running On: DESKTOP-NK32O2V, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 4, Host memory: 34294 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/baba/Desktop/LSI_template/LSI_template.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/baba/Desktop/LSI_template/tb_behav1.wcfg
+open_wave_config C:/Users/baba/Desktop/LSI_template/fifoa.wcfg
+open_wave_config C:/Users/baba/Desktop/LSI_template/ram_adresssyusei.wcfg
+source tb.tcl

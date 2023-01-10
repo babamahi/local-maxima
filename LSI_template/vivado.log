@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jan 10 12:30:51 2023
+# Process ID: 1824
+# Current directory: C:/Users/baba/Desktop/LSI_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17764 C:\Users\baba\Desktop\LSI_template\LSI_template.xpr
+# Log file: C:/Users/baba/Desktop/LSI_template/vivado.log
+# Journal file: C:/Users/baba/Desktop/LSI_template\vivado.jou
+# Running On: DESKTOP-NK32O2V, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 4, Host memory: 34294 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/baba/Desktop/LSI_template/LSI_template.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/Downloads/tb.sv'; using path 'C:/Users/baba/Downloads/tb.sv' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1464.938 ; gain = 244.098
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -L axi_vip_v1_1_12 -L zynq_ultra_ps_e_vip_v1_0_12 -L xilinx_vip -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi_vip_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.srcs/sources_1/imports/zynq/AXI_LITE_source_1.0/hdl/AXI_LITE_source_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AXI_LITE_source_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.srcs/sources_1/imports/zynq/LGI_AXIwithDMD256256/LGI_AXIwithDMD256256.srcs/sources_1/imports/new/fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.srcs/sources_1/imports/zynq/AXI_LITE_source_1.0/hdl/ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.srcs/sources_1/imports/zynq/AXI_LITE_source_1.0/hdl/AXI_LITE_source_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AXI_LITE_source_v1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/ip/design_1_AXI_LITE_source_v1_0_0_0_1/sim/design_1_AXI_LITE_source_v1_0_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_AXI_LITE_source_v1_0_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/baba/Desktop/LSI_template/LSI_template.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1483.641 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_12 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_12 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9180] module 'axi_vip_axi4pc' is instantiated multiple times from VHDL or from both Verilog and VHDL; elaboration result may be incorrect [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/xilinx_vip/hdl/axi_vip_axi4pc.sv:559]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling architecture behavioral of entity xil_defaultlib.fifo [fifo_default]
+Compiling architecture behavioral of entity xil_defaultlib.ram [ram_default]
+Compiling architecture arch_imp of entity xil_defaultlib.AXI_LITE_source_v1_0_S00_AXI [axi_lite_source_v1_0_s00_axi_def...]
+Compiling architecture arch_imp of entity xil_defaultlib.AXI_LITE_source_v1_0 [axi_lite_source_v1_0_default]
+Compiling architecture design_1_axi_lite_source_v1_0_0_0_arch of entity xil_defaultlib.design_1_AXI_LITE_source_v1_0_0_0 [design_1_axi_lite_source_v1_0_0_...]
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=2,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+Compiling module xil_defaultlib.design_1_axi_vip_0_1
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling module xil_defaultlib.cb
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 1485.910 ; gain = 2.270
+INFO: [USF-XSim-69] 'elaborate' step finished in '23' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/baba/Desktop/LSI_template/LSI_template.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -view {C:/Users/baba/Desktop/LSI_template/tb_behav1.wcfg} -view {C:/Users/baba/Desktop/LSI_template/fifoa.wcfg} -view {C:/Users/baba/Desktop/LSI_template/ram_adresssyusei.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/dut/design_1_i//AXI_LITE_source_v1_0_0/s00_axi
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/dut/design_1_i//axi_vip_0/M_AXI
+Time resolution is 1 ps
+open_wave_config C:/Users/baba/Desktop/LSI_template/tb_behav1.wcfg
+open_wave_config C:/Users/baba/Desktop/LSI_template/fifoa.wcfg
+open_wave_config C:/Users/baba/Desktop/LSI_template/ram_adresssyusei.wcfg
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+XilinxAXIVIP: Found at Path: tb.dut.design_1_i.axi_vip_0.inst
+Executing Axi4 End Of Simulation checks
+$finish called at time : 2014 ns : File "C:/Users/baba/Downloads/tb.sv" Line 79

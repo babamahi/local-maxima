@@ -1,0 +1,38 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_12 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9180] module 'axi_vip_axi4pc' is instantiated multiple times from VHDL or from both Verilog and VHDL; elaboration result may be incorrect [/wrk/ci/prod/2022.1/sw/continuous/2573/packages/customer/vivado/data/xilinx_vip/hdl/axi_vip_axi4pc.sv:559]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.math_real
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling architecture behavioral of entity xil_defaultlib.fifo [fifo_default]
+Compiling architecture behavioral of entity xil_defaultlib.ram [ram_default]
+Compiling architecture arch_imp of entity xil_defaultlib.AXI_LITE_source_v1_0_S00_AXI [axi_lite_source_v1_0_s00_axi_def...]
+Compiling architecture arch_imp of entity xil_defaultlib.AXI_LITE_source_v1_0 [axi_lite_source_v1_0_default]
+Compiling architecture design_1_axi_lite_source_v1_0_0_0_arch of entity xil_defaultlib.design_1_AXI_LITE_source_v1_0_0_0 [design_1_axi_lite_source_v1_0_0_...]
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=2,C_AX...
+Compiling module axi_vip_v1_1_12.axi_vip_v1_1_12_top(C_AXI_PROTOC...
+Compiling module xil_defaultlib.design_1_axi_vip_0_1
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling module xil_defaultlib.cb
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

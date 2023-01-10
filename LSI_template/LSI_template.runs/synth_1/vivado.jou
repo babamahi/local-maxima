@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jan  9 19:34:18 2023
+# Process ID: 18644
+# Current directory: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.runs/synth_1
+# Command line: vivado.exe -log main_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_design_wrapper.tcl
+# Log file: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.runs/synth_1/main_design_wrapper.vds
+# Journal file: C:/Users/baba/Desktop/AXI4-lite-myip/LSI_template/LSI_template.runs/synth_1\vivado.jou
+# Running On: DESKTOP-NK32O2V, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 4, Host memory: 34294 MB
+#-----------------------------------------------------------
+source main_design_wrapper.tcl -notrace

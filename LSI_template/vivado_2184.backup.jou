@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Jan  5 14:59:26 2023
+# Process ID: 2184
+# Current directory: C:/Users/baba/AXI4-lite-myip/LSI_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2996 C:\Users\baba\AXI4-lite-myip\LSI_template\LSI_template.xpr
+# Log file: C:/Users/baba/AXI4-lite-myip/LSI_template/vivado.log
+# Journal file: C:/Users/baba/AXI4-lite-myip/LSI_template\vivado.jou
+# Running On: DESKTOP-NK32O2V, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 4, Host memory: 34294 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/baba/AXI4-lite-myip/LSI_template/LSI_template.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/baba/AXI4-lite-myip/LSI_template/tb_behav1.wcfg
+open_wave_config C:/Users/baba/AXI4-lite-myip/LSI_template/fifoa.wcfg
+source tb.tcl
+create_wave_config
+create_wave_config
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_WDATA}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/S_AXI_RDATA}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_a/dout}} {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_a/rd_en}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_a/din}} 
+save_wave_config {C:/Users/baba/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/baba/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg
+set_property xsim.view {C:/Users/baba/AXI4-lite-myip/LSI_template/tb_behav1.wcfg C:/Users/baba/AXI4-lite-myip/LSI_template/fifoa.wcfg C:/Users/baba/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg} [get_filesets sim_1]
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_rdata}} 
+relaunch_sim
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_a/empty}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_b/din}} 
+relaunch_sim
+update_module_reference {design_1_AXI_LITE_source_v1_0_0_0 main_design_AXI_LITE_source_v1_0_0_0}
+relaunch_sim
+relaunch_sim
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_b/full}} 
+relaunch_sim
+update_module_reference {design_1_AXI_LITE_source_v1_0_0_0 main_design_AXI_LITE_source_v1_0_0_0}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+update_module_reference {design_1_AXI_LITE_source_v1_0_0_0 main_design_AXI_LITE_source_v1_0_0_0}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+relaunch_sim
+update_module_reference {design_1_AXI_LITE_source_v1_0_0_0 main_design_AXI_LITE_source_v1_0_0_0}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/axi_rdata}} 
+relaunch_sim
+current_wave_config {ram_adresssyusei.wcfg}
+add_wave {{/tb/dut/design_1_i/AXI_LITE_source_v1_0_0/U0/AXI_LITE_source_v1_0_S00_AXI_inst/fifo_b/rptr}} 
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/baba/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg}
+save_wave_config {C:/Users/baba/AXI4-lite-myip/LSI_template/ram_adresssyusei.wcfg}
+close_sim
